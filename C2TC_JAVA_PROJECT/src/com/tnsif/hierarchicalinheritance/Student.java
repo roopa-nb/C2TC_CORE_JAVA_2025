@@ -1,4 +1,4 @@
-package com.tnsif.inheritance;
+package com.tnsif.hierarchicalinheritance;
 
 public class Student extends Citizen {
 	private int rollNo;
@@ -6,7 +6,7 @@ public class Student extends Citizen {
 	public Student() {
 		super();
 	}
-	public Student(String name, String address, long adharNumber, long phNo, int rollNo, String CollegName) {
+	public Student(String name, String address, long adharNumber, long phNo, int rollNo, String CollegName, String CollegeName) {
 		super(name, address, adharNumber, phNo); //this will call parent class constructor parameters so suoer keyword is used
 		this.CollegeName= CollegeName;
 		this.rollNo=rollNo;

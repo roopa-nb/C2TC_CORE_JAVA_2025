@@ -21,6 +21,9 @@ public class Country{
 		this.countryName = countryName;
 		this.capital = capital;
 	}
+	public Country() {
+		// TODO Auto-generated constructor stub
+	}
 	@Override
 	public String toString() {
 		return "Multilevel [countryName=" + countryName + ", capital=" + capital + "]";
