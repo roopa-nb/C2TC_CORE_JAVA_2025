@@ -7,7 +7,9 @@ public class Transaction {
 	 
 	 
 	 
-	public final void performTransaction() {
+	public final void performTransaction(int amount, String type) {
+		this.amount = amount;
+        this.type = type;
 		System.out.println("transaction fee:"+ TRANSACTION_FEE);
 		System.out.println("account type:"+type);
 		System.out.println("Amount:"+amount);

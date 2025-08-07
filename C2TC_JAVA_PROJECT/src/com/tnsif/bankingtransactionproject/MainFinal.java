@@ -13,7 +13,7 @@ public class MainFinal {
         String type=sc.nextLine();
         System.out.println("enter the amount");
         int amount=sc.nextInt();
-        transaction.performTransaction(); 
+        transaction.performTransaction(amount, type); 
 
         sc.close();
         
