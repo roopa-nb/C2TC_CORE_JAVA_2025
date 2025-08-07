@@ -18,6 +18,7 @@ public class Executor {
 		String address=sc.next();
 		System.out.println("enter the phone no of employee");
 		long phone=sc.nextLong();
+		System.out.println(a);
 		
 		
 		
