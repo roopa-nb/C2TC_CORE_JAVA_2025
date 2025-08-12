@@ -13,7 +13,7 @@ public class WrapperClassDemo {
 		System.out.println(i1);
 		
 		int b=i1.intValue();
-		//System.out.println(b);
+		System.out.println(b);
 		
 		//without using intvalue()
         int c=i1;
